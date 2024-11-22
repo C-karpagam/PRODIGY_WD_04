@@ -1,0 +1,97 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    padding: 40px 0;
+    background-color: white;
+    text-align: center;
+}
+
+#about .profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    margin: 10px 0;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
